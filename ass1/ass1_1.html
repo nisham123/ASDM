@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function myfunction(){
+ var str="iacsd welcome to IASCD";
+ var n=str.search("IACSD");
+
+ var m=str.match(/cs/gi); 
+ document.getElementById("demo").innerHTML=m;
+ 
+}
+
+</script>
+</head>
+<body>
+<p id="demo"></p>
+<button onclick="myfunction()">tryit</button>
+</body>
+</html>

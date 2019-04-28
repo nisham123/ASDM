@@ -1,0 +1,38 @@
+<html>
+<head>
+<script>
+
+function myFunction1() {
+  document.getElementById("div1").innerHTML = "Hello World";
+}
+
+function myFunction2() {
+  document.getElementById("div1").innerHTML = "https://www.google.com/";
+}
+
+function myFunction3() {
+  var para = document.createElement("P");
+  para.innerText = "This is a paragraph.";
+  document.body.appendChild(para);
+}
+
+function myFunction4() {
+ 
+}
+
+</script>
+</head>
+
+
+<body>
+<div id="div1">
+<button onclick="myFunction1()">btn1</button>
+ <a href="http://www.google.com" onclick="return myFunction2()"><button onclick="myfunction2()">btn2</button>
+</a>
+<button onclick="myFunction3()">btn3</button>
+<button onclick="myFunction4()">btn4</button>
+</div>
+
+
+</body>
+</html>
